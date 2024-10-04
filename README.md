@@ -48,3 +48,11 @@ To start the simulation, the program is executed in the main loop using `pyglet.
 if __name__ == '__main__':
     pyglet.clock.schedule_interval(update, 1.0/60.0)
     pyglet.app.run()
+## Requirements
+```
+To run this project, you'll need the following dependencies:
+
+- **Python 3.x**: Make sure you have Python 3 installed on your system.
+- **pyglet**: For handling the window and rendering the boids. Install it via:
+  ```bash
+  pip install pyglet
